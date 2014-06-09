@@ -213,5 +213,13 @@ under the License.
       <artifactId>javassist</artifactId>
       <version>${dep.javassist.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-web-api</artifactId>
+      <version>6.0</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 </project>
